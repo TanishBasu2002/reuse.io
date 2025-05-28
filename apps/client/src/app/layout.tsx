@@ -1,10 +1,10 @@
 import "@repo/ui/index.css";
-
+import "../styles/globals.css";
 import type { Metadata } from "next";
 import { DM_Sans, Geist } from "next/font/google";
-import QueryProvider from "~/lib/context/query-provider";
-import { ThemeProvider } from "~/lib/context/theme-provider";
-import { Toaster } from "sonner";
+import { QueryProvider } from "@repo/ui/lib/context";
+import { ThemeProvider } from "@repo/ui/lib/context";
+import { Toaster } from "@repo/ui/components/ui/sonner";
 
 export const metadata: Metadata = {
   title: "Create T3 App",

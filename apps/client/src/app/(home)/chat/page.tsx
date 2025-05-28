@@ -9,16 +9,21 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "~/components/ui/card";
-import { Button } from "~/components/ui/button";
-import { Input } from "~/components/ui/input";
-import { Label } from "~/components/ui/label";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
-import { ScrollArea } from "~/components/ui/scroll-area";
+} from "@repo/ui/components/ui/card";
+import { Button } from "@repo/ui/components/ui/button";
+import { Input } from "@repo/ui/components/ui/input";
+import { Label } from "@repo/ui/components/ui/label";
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from "@repo/ui/components/ui/tabs";
+import { ScrollArea } from "@repo/ui/components/ui/scroll-area";
 import { Loader2, LogOut } from "lucide-react";
-import type { User } from "~/types";
-import { createUser, getUsers } from "~/lib/chat";
-import ChatBox from "~/components/chat/chat-box";
+import type { User } from "@repo/ui/types/index";
+import { createUser, getUsers } from "@repo/ui/lib/chat";
+import { ChatBox } from "@repo/ui/components/chat/chat-box";
 
 export default function ChatPage() {
   const [currentUser, setCurrentUser] = useState<User | null>(null);

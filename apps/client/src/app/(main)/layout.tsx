@@ -1,7 +1,7 @@
-import { Asidebar, Header } from "~/components/shared/main";
-import { SidebarInset, SidebarProvider } from "~/components/ui/sidebar";
-import { AuthProvider } from "~/lib/context/auth-provider";
-
+import { SidebarInset, SidebarProvider } from "@repo/ui/components/ui/sidebar";
+import { AuthProvider } from "@repo/ui/lib/context";
+import { Asidebar } from "@repo/ui/components/main/sidebar";
+import { Header } from "@repo/ui/components/main/header";
 
 export default function MainLayout({
   children,

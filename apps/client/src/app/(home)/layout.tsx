@@ -1,4 +1,4 @@
-import { MainNav } from "~/components/shared/nav";
+import { MainNav } from "@repo/ui/components/nav";
 
 export default function ChatLayout({
   children,
@@ -9,9 +9,9 @@ export default function ChatLayout({
     <html lang="en">
       <body>
         <MainNav />
-          <main className="min-h-screen bg-background pt-4 pb-12">
-            {children}
-          </main>
+        <main className="min-h-screen bg-background pt-4 pb-12">
+          {children}
+        </main>
       </body>
     </html>
   );

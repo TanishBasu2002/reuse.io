@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { VerifyMfa } from "~/components/shared/auth";
+import { VerifyMfa } from "@repo/ui/components/auth/verify";
 
 const Page = () => {
   return (

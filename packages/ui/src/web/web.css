@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  /* Container settings */
+  --container-padding-default: 1rem;
+  --container-padding-md: 2rem;
+  --container-padding-lg: 4rem;
+
+  /* Font family */
+  --font-sans: var(--font-inter), sans-serif;
+
+  /* Breakpoints */
+  --breakpoint-sm: 375px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1200px;
+}

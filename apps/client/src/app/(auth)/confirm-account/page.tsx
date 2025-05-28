@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { ConfirmAccount } from "~/components/shared/auth";
+import { ConfirmAccount } from "@repo/ui/components/auth/confirm-account";
 
 const Page = () => {
   return (

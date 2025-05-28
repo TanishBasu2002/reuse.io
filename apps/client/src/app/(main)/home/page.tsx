@@ -1,5 +1,6 @@
 import React from "react";
-import { EnableMfa, Sessions } from "~/components/shared/main";
+import { EnableMfa } from "@repo/ui/components/main/enable-mfa";
+import { Sessions } from "@repo/ui/components/main/sessions";
 
 const Home = () => {
   return (

@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { ForgotPassword } from "~/components/shared/auth";
+import { ForgotPassword } from "@repo/ui/components/auth/forgot-password";
 
 const Page = () => {
   return (

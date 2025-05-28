@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { SignUp } from "~/components/shared/auth";
+import { SignUp } from "@repo/ui/components/auth/sign-up";
 
 const Page = () => {
   return (
